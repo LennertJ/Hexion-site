@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@symfony/webpack-encore": "^0.31.0",
     "boostrap": "^2.0.0"
   }
 }
