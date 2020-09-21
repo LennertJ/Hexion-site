@@ -11,12 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de8432f1-04ae-42f7-abb2-2fa9e9bca05c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Shared/Header.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/RegistrationFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/RegistrationFormType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Shared/Header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Shared/Header.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration/register.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/register.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/security/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,7 +179,7 @@
       <updated>1600520485255</updated>
       <workItem from="1600520486600" duration="1980000" />
       <workItem from="1600602622710" duration="10035000" />
-      <workItem from="1600682757940" duration="1078000" />
+      <workItem from="1600682757940" duration="2447000" />
     </task>
     <servers />
   </component>
@@ -231,9 +231,10 @@
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600629237128" />
     <state x="2451" y="236" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600633310837" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600633063151">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1600684919151">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600684919151" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600633063151" />
   </component>
 </project>

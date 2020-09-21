@@ -3,7 +3,11 @@ body {
     background-color: lightgray;
 }
 
-.main{
-    height: 60px;
+.headerHeight{
+    height: 80px;
+}
+
+.contentAlignend{
+    text-align: end;
 }
 
