@@ -3,6 +3,8 @@
 namespace App\Entity;
 
 use App\Repository\UserRepository;
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 use Symfony\Component\Security\Core\User\UserInterface;
@@ -60,6 +62,16 @@ class User implements UserInterface
      * @ORM\OneToOne(targetEntity=AdditionalInfoUser::class, mappedBy="UserId", cascade={"persist", "remove"})
      */
     private $additionalInfoUser;
+
+    /**
+     * @ORM\ManyToMany(targetEntity=FunctieToPerson::class, mappedBy="LidNummer")
+     */
+    private $Functie;
+
+    public function __construct()
+    {
+        $this->Functie = new ArrayCollection();
+    }
 
 
     public function getId(): ?int
@@ -205,6 +217,34 @@ class User implements UserInterface
         // set the owning side of the relation if necessary
         if ($additionalInfoUser->getUserId() !== $this) {
             $additionalInfoUser->setUserId($this);
+        }
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|FunctieToPerson[]
+     */
+    public function getFunctie(): Collection
+    {
+        return $this->Functie;
+    }
+
+    public function addFunctie(FunctieToPerson $functie): self
+    {
+        if (!$this->Functie->contains($functie)) {
+            $this->Functie[] = $functie;
+            $functie->addLidNummer($this);
+        }
+
+        return $this;
+    }
+
+    public function removeFunctie(FunctieToPerson $functie): self
+    {
+        if ($this->Functie->contains($functie)) {
+            $this->Functie->removeElement($functie);
+            $functie->removeLidNummer($this);
         }
 
         return $this;
