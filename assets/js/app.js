@@ -9,6 +9,7 @@ import '../css/app.css';
 import '../css/footer.css';
 import '../css/header.css';
 import '../css/homepage.scss';
+import '../css/profilepage.css';
 // Need jQuery? Install it with "yarn add jquery", then uncomment to import it.
 // import $ from 'jquery';
 

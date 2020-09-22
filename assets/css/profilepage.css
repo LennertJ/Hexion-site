@@ -1,0 +1,7 @@
+.customProfileCard{
+    border-radius: 5%;
+    min-height: 300px;
+    -webkit-box-shadow: 12px 13px 14px 3px rgba(0,0,0,0.31);
+    -moz-box-shadow: 12px 13px 14px 3px rgba(0,0,0,0.31);
+    box-shadow: 12px 13px 14px 3px rgba(0,0,0,0.31);
+}

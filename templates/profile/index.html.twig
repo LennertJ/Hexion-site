@@ -2,7 +2,23 @@
 
 {% block body %}
 <div class="container">
+    <div class="text-center">
+        <h1>{{ app.user.naam }}
+            {% if not app.user.clubnaam == "" %}
+                v. {{ app.user.clubnaam }}
+            {% endif %}
+             {{ app.user.achternaam }} ({{app.user.email}})</h1>
+    </div>
 
-    <h1>Hello {{ app.user.naam }} {{ app.user.achternaam }}! ✅</h1>
+    <div class="row">
+        <div class="col-md-5 col-sm-8 col-sm-offset-2 col-md-offset-0">
+            <div class="customProfileCard">
+
+            </div>
+        </div>
+    </div>
+
+
+    </div>
 </div>
 {% endblock %}
