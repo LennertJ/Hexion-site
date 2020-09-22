@@ -16,4 +16,12 @@ class MainController extends AbstractController
             'controller_name' => 'MainController',
         ]);
     }
+
+    /**
+     * @Route("/Sponsors", name="sponsors")
+     */
+    public function sponsors()
+    {
+        return $this->render('static/Sponsors.html.twig');
+    }
 }
