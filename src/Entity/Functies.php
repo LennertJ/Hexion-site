@@ -20,9 +20,8 @@ class Functies
     private $id;
 
     /**
-     * @ORM\Column(type="integer")
+     * @ORM\Column(type="string", length=63, nullable=false)
      */
-
     private $Titel;
 
     /**

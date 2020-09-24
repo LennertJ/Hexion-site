@@ -11,17 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de8432f1-04ae-42f7-abb2-2fa9e9bca05c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/migrations/Version20200924090351.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/FunctiesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/FunctieType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/bundles/TwigBundle/Exception/error403.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/functies/add.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/RegistrationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RegistrationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Functies.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Functies.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/profile/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profile/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/FunctiesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/FunctiesController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +148,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/bundles/TwigBundle/Exception" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/functies" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -170,11 +161,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\lenne\OneDrive\Bureaublad\site_working_directory\Hexion_Site\templates\bundles\TwigBundle\Exception" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lenne\OneDrive\Bureaublad\site_working_directory\Hexion_Site\assets\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lenne\OneDrive\Bureaublad\site_working_directory\Hexion_Site\templates\functies" />
+      <recent name="C:\Users\lenne\OneDrive\Bureaublad\site_working_directory\Hexion_Site\templates\bundles\TwigBundle\Exception" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -193,7 +185,8 @@
       <workItem from="1600756345724" duration="11229000" />
       <workItem from="1600788301193" duration="10000" />
       <workItem from="1600935147658" duration="603000" />
-      <workItem from="1600935763888" duration="2716000" />
+      <workItem from="1600935763888" duration="2805000" />
+      <workItem from="1600940740875" duration="2821000" />
     </task>
     <servers />
   </component>

@@ -14,7 +14,7 @@ class FunctieType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('Titel', TextType::class)
+            ->add('titel')
             ->add('beschrijving', TextareaType::class)
         ;
     }

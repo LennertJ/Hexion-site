@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="container">
+        <h1>alle functies</h1>
+    <ul>
+        {% for functie in functies %}
+            <li>{{ functie.titel }}</li>
+            <li>{{ functie.beschrijving }}</li>
+        {% endfor %}
+    </ul>
+
+    </div>
+{% endblock %}
