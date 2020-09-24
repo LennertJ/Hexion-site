@@ -22,11 +22,7 @@ class Functies
     /**
      * @ORM\Column(type="integer")
      */
-    private $FunctieId;
 
-    /**
-     * @ORM\Column(type="string", length=255)
-     */
     private $Titel;
 
     /**
@@ -47,18 +43,6 @@ class Functies
     public function getId(): ?int
     {
         return $this->id;
-    }
-
-    public function getFunctieId(): ?int
-    {
-        return $this->FunctieId;
-    }
-
-    public function setFunctieId(int $FunctieId): self
-    {
-        $this->FunctieId = $FunctieId;
-
-        return $this;
     }
 
     public function getTitel(): ?string

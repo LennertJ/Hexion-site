@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello FunctiesController!{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <h1>Voeg Functie toe</h1>
+
+        {{ form_start(FunctieForm) }}
+        {{ form_widget(FunctieForm) }}
+        <div class="contentAlignend">
+            <button type="submit" class="btn btn-success">Voeg Functie toe</button>
+        </div>
+        {{ form_end(FunctieForm) }}
+    <div/>
+{% endblock %}

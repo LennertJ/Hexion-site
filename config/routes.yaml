@@ -8,3 +8,7 @@ app_logout:
 index:
     path: /
     controller: App\Controller\MainController::index
+
+main:
+    path: /main
+    controller: App\Controller\MainController::index
