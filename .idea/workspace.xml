@@ -11,8 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de8432f1-04ae-42f7-abb2-2fa9e9bca05c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/functies/edit.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/FunctiesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/FunctiesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/functies/add.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/functies/add.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/functies/showAll.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/functies/showAll.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,12 +165,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lenne\OneDrive\Bureaublad\site_working_directory\Hexion_Site\assets\images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lenne\OneDrive\Bureaublad\site_working_directory\Hexion_Site\templates\functies" />
       <recent name="C:\Users\lenne\OneDrive\Bureaublad\site_working_directory\Hexion_Site\templates\bundles\TwigBundle\Exception" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lenne\OneDrive\Bureaublad\site_working_directory\Hexion_Site\assets\images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -186,7 +190,9 @@
       <workItem from="1600788301193" duration="10000" />
       <workItem from="1600935147658" duration="603000" />
       <workItem from="1600935763888" duration="2805000" />
-      <workItem from="1600940740875" duration="2821000" />
+      <workItem from="1600940740875" duration="5409000" />
+      <workItem from="1601033662039" duration="279000" />
+      <workItem from="1601033975888" duration="1693000" />
     </task>
     <servers />
   </component>
@@ -217,10 +223,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2647" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600632932776" />
-    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600937865594">
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601035108392">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600937865594" />
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1601035108392" />
     <state x="2627" y="364" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1600632940497">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -233,6 +239,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2548" y="298" key="EditFileWatcherDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600631443074" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1601034212009">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1601034212009" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1600631340240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -241,10 +251,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600690853742" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1600780401643">
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1600960062069">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600780401643" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600960062069" />
     <state x="2451" y="236" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600633310837" />
     <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1600763496007">
       <screen x="0" y="0" width="1536" height="824" />
