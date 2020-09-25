@@ -11,3 +11,11 @@ body {
     text-align: end;
 }
 
+.edit-buttons{
+    color: #ccc !important;
+
+}
+.edit-buttons:hover {
+    color: #229444 !important;
+}
+

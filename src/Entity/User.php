@@ -73,6 +73,10 @@ class User implements UserInterface
         $this->Functie = new ArrayCollection();
     }
 
+    public function isGranted($role)
+    {
+        return in_array($role, $this->getRoles());
+    }
 
     public function getId(): ?int
     {
