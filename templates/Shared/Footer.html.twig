@@ -13,14 +13,14 @@
             </div>
 
             <div class="col-xs-6 col-md-3">
-                <h6>Categories</h6>
+                <h6>secundaire navigatie</h6>
                 <ul class="footer-links">
 
                     {% if app.user %}
                         <li><a href="{{ path('profile')}}">Profiel: {{ app.user.naam }}</a></li>
                         {% if app.user.granted("ROLE_ADMIN") %}
                             <li><a href=" {{ path('showfuncties') }}">functie beheer</a></li>
-                            <li><a href="/">gebruikers beheer</a></li>
+                            <li><a href="{{ path('showUsers') }}">gebruikers beheer</a></li>
                             <li><a href="/">evenement beheer</a></li>
                         {% endif %}
                     {% else %}

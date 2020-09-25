@@ -1,0 +1,48 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="container">
+        <center><h1>Users</h1></center>
+        <table class="table table-dark" style="margin-bottom: 0;" >
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Email</th>
+                <th scope="col">Voornaam</th>
+                <th scope="col">Achternaam</th>
+                <th scope="col">Clubnaam</th>
+                <th scope="col">IsAdmin</th>
+                <th scope="col">Edit</th>
+                <th scope="col">Verwijder</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for user in users %}
+                <tr>
+                    <th scope="row">{{ user.id }}</th>
+                    <td>{{ user.email }}</td>
+                    <td>{{ user.naam }}</td>
+                    <td>{{ user.achternaam }}</td>
+                    <td>{{ user.clubnaam }}</td>
+                    <td>
+                        {% if user.granted("ROLE_ADMIN") %}
+                            ✔
+                        {% endif %}
+                    </td>
+                    <td>
+                        <a class="edit-buttons" href="{{ path('EditUserRoles',{id: user.id}) }}" onclick="return confirm('are u sure?') ">
+                            <i class="fas fa-edit"></i>
+                        </a>
+                    </td>
+                    <td>
+                        <a class="edit-buttons" href="{{ path('DeleteUser',{id: user.id}) }}" onclick="return confirm('are u sure?') ">
+                            <i class="far fa-trash-alt"></i>
+                        </a>
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+        <hr style="margin-top: 0;" />
+    </div>
+{% endblock %}

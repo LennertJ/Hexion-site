@@ -124,6 +124,13 @@ class User implements UserInterface
         return $this;
     }
 
+    public function changeRole(string $roles): self
+    {
+        $this->roles = array($roles);
+
+        return $this;
+    }
+
     /**
      * @see UserInterface
      */

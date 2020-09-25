@@ -12,7 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="de8432f1-04ae-42f7-abb2-2fa9e9bca05c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/functies/showAll.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/functies/showAll.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Shared/Footer.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Shared/Footer.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/users/showAll.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/showAll.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,12 +163,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lenne\OneDrive\Bureaublad\site_working_directory\Hexion_Site\assets\images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lenne\OneDrive\Bureaublad\site_working_directory\Hexion_Site\templates\functies" />
       <recent name="C:\Users\lenne\OneDrive\Bureaublad\site_working_directory\Hexion_Site\templates\bundles\TwigBundle\Exception" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lenne\OneDrive\Bureaublad\site_working_directory\Hexion_Site\assets\images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -189,7 +191,7 @@
       <workItem from="1600940740875" duration="5409000" />
       <workItem from="1601033662039" duration="279000" />
       <workItem from="1601033975888" duration="1693000" />
-      <workItem from="1601043008567" duration="304000" />
+      <workItem from="1601043008567" duration="6728000" />
     </task>
     <servers />
   </component>
@@ -224,6 +226,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2647" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600632932776" />
+    <state x="418" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601043458415">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="418" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1601043458415" />
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601035108392">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -257,10 +263,10 @@
     </state>
     <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600960062069" />
     <state x="2451" y="236" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600633310837" />
-    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1600763496007">
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1601051896645">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1600763496007" />
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1601051896645" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600633063151" />
   </component>
 </project>

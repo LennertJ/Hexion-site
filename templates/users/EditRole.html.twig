@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="container">
+        <h1>pas rol aan</h1>
+
+        {{ form_start(EditUserRoleForm) }}
+        {{ form_widget(EditUserRoleForm) }}
+        <div class="contentAlignend">
+            <button type="submit" class="btn btn-success">Pas rol aan</button>
+        </div>
+        {{ form_end(EditUserRoleForm) }}
+    </div>
+{% endblock %}
